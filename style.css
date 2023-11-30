@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'press start 2p', sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 10px solid #fff;
+}
+
+header h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin: 40px;
+    color: blueviolet;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top p {
+    color: aquamarine;
+}
+
+header .btn {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 5px dashed aqua;
+    background: #000;
+    color: deeppink;
+}
+
+.number {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    padding: 10px;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.guessnumber {
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input label {
+    font-size: 18px;
+}
+
+.left .btn {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: yellow;
+    background-color: #000;
+    border: 2px dashed #fff;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.right div {
+    display: flex;
+    font-size: 20px;
+}
+
+.message {
+    height: 40px;
+}
+
+.btn {
+    cursor: pointer;
+}
